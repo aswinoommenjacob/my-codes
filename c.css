@@ -1,0 +1,69 @@
+*{
+    font-family: Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Tahoma, sans-serif;
+}
+
+.topnav ul{
+    list-style: 10px;
+    display: flex;
+    margin-right: 15px;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 15px 32px;
+   
+}
+.row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.para{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.topnav{
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 1px;
+    cursor: pointer;
+    float: right;
+}
+.topnav ul li{
+    text-decoration: none;
+    font-size: 15px; 
+    padding-left: 20px;
+    text-align: right; 
+}
+.topnav button{
+    border: none;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+    cursor: pointer;
+    margin-right: 40pt;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px ;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(hack2.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translate(-10px);
+}
+.col{
+    margin-left: 10px;
+    margin-right: 10px;
+}
